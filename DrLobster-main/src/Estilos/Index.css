@@ -1,0 +1,71 @@
+.app {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fdc5ba;
+}
+
+.login-section, .info-section {
+  padding: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.info-section {
+  border-bottom: none;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #fcb3a3;
+  text-align: center;
+}
+
+.login-section form div{
+  margin-bottom: 10px;
+}
+
+.login-section form label {
+  margin-right: 10px;
+}
+
+.login-section form input {
+  padding: 5px;
+}
+
+.login-section form button {
+  padding: 10px 20px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .login-section {
+    flex: 1;
+    border-bottom: none;
+    border-right: 1px solid #000000;
+  }
+
+  .info-section {
+    flex: 2;
+  }
+}
+
+.footer .container-fluid {
+  background-color: #fdc5ba;
+  padding: 20px;
+}
+
+.footer h2, .footer h4, footer p, .footer section {
+  margin:10px, 0px;
+}
+
+
