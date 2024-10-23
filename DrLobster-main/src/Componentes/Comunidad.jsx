@@ -60,7 +60,7 @@ const Community = () => {
       {/* Lista de publicaciones */}
       <div>
         {posts.map(post => (
-          <div key={post.id} style={{ border: "1px solid #ccc", margin: "10px", padding: "10px" }}>
+          <div key={post.id} style={{ border: "2px solid white", margin: "12px", padding: "12px" }}>
             <h4>{post.author}</h4>
             <p>{post.content}</p>
 

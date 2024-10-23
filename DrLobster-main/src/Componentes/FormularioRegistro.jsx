@@ -10,8 +10,8 @@ class FormularioRegistro extends React.Component {
             datos: [],
             form: {
                 Id: '',
-                Nombres: '',
-                Apellidos: '',
+                Nombre: '',
+                Apellido: '',
                 Correo: '',
                 Contraseña: '',
                 Departamento: '',

@@ -12,7 +12,9 @@ function Init() {
             <h2>Iniciar sesión</h2>
             <form>
               <div>
+                <div style={{marginBottom: "0px"}}>
                 <label>Usuario:</label>
+                </div>
                 <input type="text" name="username@tucorreo.com"></input>
               </div>
               <div>
